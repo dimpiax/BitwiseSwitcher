@@ -1,0 +1,279 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		048C70781BE91B4F0046C8EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048C70771BE91B4F0046C8EC /* AppDelegate.swift */; };
+		048C707A1BE91B4F0046C8EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 048C70791BE91B4F0046C8EC /* Assets.xcassets */; };
+		048C707D1BE91B4F0046C8EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048C707B1BE91B4F0046C8EC /* LaunchScreen.storyboard */; };
+		048C70851BE91B6C0046C8EC /* BitwiseSwitcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048C70841BE91B6C0046C8EC /* BitwiseSwitcher.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		048C70741BE91B4F0046C8EC /* BitwiseSwitcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitwiseSwitcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		048C70771BE91B4F0046C8EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		048C70791BE91B4F0046C8EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		048C707C1BE91B4F0046C8EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		048C707E1BE91B4F0046C8EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		048C70841BE91B6C0046C8EC /* BitwiseSwitcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BitwiseSwitcher.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		048C70711BE91B4F0046C8EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		048C706B1BE91B4F0046C8EC = {
+			isa = PBXGroup;
+			children = (
+				048C70761BE91B4F0046C8EC /* BitwiseSwitcher */,
+				048C70751BE91B4F0046C8EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		048C70751BE91B4F0046C8EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				048C70741BE91B4F0046C8EC /* BitwiseSwitcher.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		048C70761BE91B4F0046C8EC /* BitwiseSwitcher */ = {
+			isa = PBXGroup;
+			children = (
+				048C70771BE91B4F0046C8EC /* AppDelegate.swift */,
+				048C70791BE91B4F0046C8EC /* Assets.xcassets */,
+				048C707B1BE91B4F0046C8EC /* LaunchScreen.storyboard */,
+				048C707E1BE91B4F0046C8EC /* Info.plist */,
+				048C70841BE91B6C0046C8EC /* BitwiseSwitcher.swift */,
+			);
+			path = BitwiseSwitcher;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		048C70731BE91B4F0046C8EC /* BitwiseSwitcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 048C70811BE91B4F0046C8EC /* Build configuration list for PBXNativeTarget "BitwiseSwitcher" */;
+			buildPhases = (
+				048C70701BE91B4F0046C8EC /* Sources */,
+				048C70711BE91B4F0046C8EC /* Frameworks */,
+				048C70721BE91B4F0046C8EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BitwiseSwitcher;
+			productName = BitwiseSwitcher;
+			productReference = 048C70741BE91B4F0046C8EC /* BitwiseSwitcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		048C706C1BE91B4F0046C8EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = dimpiax;
+				TargetAttributes = {
+					048C70731BE91B4F0046C8EC = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 048C706F1BE91B4F0046C8EC /* Build configuration list for PBXProject "BitwiseSwitcher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 048C706B1BE91B4F0046C8EC;
+			productRefGroup = 048C70751BE91B4F0046C8EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				048C70731BE91B4F0046C8EC /* BitwiseSwitcher */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		048C70721BE91B4F0046C8EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048C707A1BE91B4F0046C8EC /* Assets.xcassets in Resources */,
+				048C707D1BE91B4F0046C8EC /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		048C70701BE91B4F0046C8EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048C70851BE91B6C0046C8EC /* BitwiseSwitcher.swift in Sources */,
+				048C70781BE91B4F0046C8EC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		048C707B1BE91B4F0046C8EC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				048C707C1BE91B4F0046C8EC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		048C707F1BE91B4F0046C8EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		048C70801BE91B4F0046C8EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		048C70821BE91B4F0046C8EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BitwiseSwitcher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dimpiax.BitwiseSwitcher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		048C70831BE91B4F0046C8EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BitwiseSwitcher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dimpiax.BitwiseSwitcher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		048C706F1BE91B4F0046C8EC /* Build configuration list for PBXProject "BitwiseSwitcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048C707F1BE91B4F0046C8EC /* Debug */,
+				048C70801BE91B4F0046C8EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		048C70811BE91B4F0046C8EC /* Build configuration list for PBXNativeTarget "BitwiseSwitcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048C70821BE91B4F0046C8EC /* Debug */,
+				048C70831BE91B4F0046C8EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 048C706C1BE91B4F0046C8EC /* Project object */;
+}
