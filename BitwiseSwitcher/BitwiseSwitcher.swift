@@ -51,11 +51,13 @@ struct BitwiseSwitcher<T: IntegerType>: CustomStringConvertible {
             case let x as Int16: if let x = 1 << x as? T { return x }
             case let x as Int32: if let x = 1 << x as? T { return x }
             case let x as Int64: if let x = 1 << x as? T { return x }
+            case let x as Int: if let x = 1 << x as? T { return x }
                 
             case let x as UInt8: if let x = 1 << x as? T { return x }
             case let x as UInt16: if let x = 1 << x as? T { return x }
             case let x as UInt32: if let x = 1 << x as? T { return x }
             case let x as UInt64: if let x = 1 << x as? T { return x }
+            case let x as UInt: if let x = 1 << x as? T { return x }
                 
             default: break
         }
@@ -63,7 +65,13 @@ struct BitwiseSwitcher<T: IntegerType>: CustomStringConvertible {
     }
     
     var description: String {
-        let binary = String(Int("\(decimal)") ?? 0, radix: 2)
+        var binary = String(Int("\(decimal)") ?? 0, radix: 2)
+        let count = (8*sizeof(T)-1)-binary.characters.count
+        if count > 0 {
+            let arr = Array<String>(count: count, repeatedValue: "0")
+            binary = arr.joinWithSeparator("")+binary
+        }
+        
         return "\(BitwiseSwitcher.self)(decimal=\(decimal) ~> \"\(binary)\")"
     }
 }

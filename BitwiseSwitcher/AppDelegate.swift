@@ -13,22 +13,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        var bitwiseSwitcher = BitwiseSwitcher<Int16>(value: 14)
+        var bitwiseSwitcher = BitwiseSwitcher<Int8>(value: 14)
 
         bitwiseSwitcher.insert(0)
-        print(bitwiseSwitcher) // BitwiseSwitcher<Int16>(decimal=15 ~> "1111")
+        print(bitwiseSwitcher) // BitwiseSwitcher<Int8>(decimal=15 ~> "0001111")
         
         bitwiseSwitcher.remove(1)
-        bitwiseSwitcher.remove(2)
-        print(bitwiseSwitcher) // BitwiseSwitcher<Int16>(decimal=9 ~> "1001")
+        print(bitwiseSwitcher) // BitwiseSwitcher<Int8>(decimal=13 ~> "0001101")
         
         bitwiseSwitcher.operate(1)
         bitwiseSwitcher.operate(2)
         bitwiseSwitcher.operate(~3)
-        print(bitwiseSwitcher) // BitwiseSwitcher<Int16>(decimal=7 ~> "111")
+        print(bitwiseSwitcher) // BitwiseSwitcher<Int8>(decimal=7 ~> "0000111")
         
         print(bitwiseSwitcher.decimal) // 7
-        		
+
         return true
     }
 }
