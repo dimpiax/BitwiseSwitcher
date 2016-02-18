@@ -14,6 +14,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         var bitwiseSwitcher = BitwiseSwitcher<Int8>(value: 14)
+        print(bitwiseSwitcher) // BitwiseSwitcher<Int8>(decimal=15 ~> "0001110")
 
         bitwiseSwitcher.insert(0)
         print(bitwiseSwitcher) // BitwiseSwitcher<Int8>(decimal=15 ~> "0001111")
@@ -27,7 +28,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         print(bitwiseSwitcher) // BitwiseSwitcher<Int8>(decimal=7 ~> "0000111")
         
         print(bitwiseSwitcher.decimal) // 7
-
+        
+        bitwiseSwitcher.remove(1)
+        print(bitwiseSwitcher.consistValues) // [0, 2]
+        
         return true
     }
 }

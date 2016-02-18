@@ -11,6 +11,18 @@ import Foundation
 struct BitwiseSwitcher<T: IntegerType>: CustomStringConvertible {
     private(set) var decimal: T!
     
+    var consistValues: [Int] {
+        let binary = String(Int("\(decimal)") ?? 0, radix: 2)
+        let binaryArray = Array(binary.characters).flatMap{ Int("\($0)") }.reverse()
+        
+        var resultArray: [Int] = []
+        for (index, value) in binaryArray.enumerate() where value == 1 {
+            resultArray.append(index)
+        }
+        
+        return resultArray
+    }
+    
     init() {
         decimal = 0
     }
