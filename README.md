@@ -1,3 +1,4 @@
+
 # BitwiseSwitcher
 Generic interpreter under IntegerType protocol for bitwise switching.
 
@@ -15,5 +16,9 @@ Generic interpreter under IntegerType protocol for bitwise switching.
     print(bitwiseSwitcher) // BitwiseSwitcher<Int8>(decimal=7 ~> "0000111")
     
     print(bitwiseSwitcher.decimal) // 7
+    
+    bitwiseSwitcher.remove(1)
 
+    // feature, that gives, in decimal format, included values from binary one
+    print(bitwiseSwitcher.consistValues) // [0, 2]
 ##### As addition to article: https://medium.com/@dimpiax/swift-bitwise-masking-p-2-8c74bf3c9630#.jkrprkp0p
